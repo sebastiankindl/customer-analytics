@@ -1,0 +1,76 @@
+# ========================
+# Python
+# ========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# virtual environments
+venv/
+.env/
+.envrc
+.venv/
+
+# pip
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ========================
+# Jupyter
+# ========================
+.ipynb_checkpoints/
+
+# ========================
+# Data files (large / private)
+# ========================
+data/
+*.csv
+*.parquet
+*.feather
+
+# ========================
+# Model artifacts
+# ========================
+models/
+*.pkl
+*.joblib
+*.h5
+*.model
+
+# ========================
+# Reports / outputs
+# ========================
+reports/
+*.json
+*.log
+
+# ========================
+# Streamlit cache
+# ========================
+.streamlit/
+
+# ========================
+# OS files
+# ========================
+.DS_Store
+Thumbs.db
+
+# ========================
+# IDE
+# ========================
+.vscode/
+.idea/
+
+# ========================
+# Testing / coverage
+# ========================
+.coverage
+htmlcov/
+.pytest_cache/
+
+# ========================
+# Build
+# ========================
+build/
+dist/
+*.egg-info/
